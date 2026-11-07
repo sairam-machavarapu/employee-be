@@ -1,0 +1,29 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment variables (keep examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Runtime databases and logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
